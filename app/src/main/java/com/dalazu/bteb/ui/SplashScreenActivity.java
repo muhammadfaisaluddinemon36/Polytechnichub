@@ -23,12 +23,6 @@ public class SplashScreenActivity extends AppCompatActivity {
 
         lottieAnimationView.playAnimation();
 
-//        Handler handler = new Handler(Looper.getMainLooper());
-//        handler.postDelayed(new Runnable() {
-//            @Override
-//            public void run() {
-//                startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
-
         Handler handler = new Handler(Looper.getMainLooper());
         handler.postDelayed(new Runnable() {
             @Override
