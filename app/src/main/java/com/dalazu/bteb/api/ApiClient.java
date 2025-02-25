@@ -10,7 +10,6 @@ import retrofit2.http.Query;
 
 public interface ApiClient {
 
-    @GET("/api/result")
 
     );
 }
