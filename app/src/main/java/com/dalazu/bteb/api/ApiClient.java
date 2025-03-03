@@ -9,7 +9,12 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface ApiClient {
-
+    @GET("/api/result")
+    Call<List<Result>> getResult(
+            @Query("year") int year,
+            @Query("semester") int semester,
+            @Query("roll") String roll
+    );
 
     );
 }
